@@ -14,14 +14,106 @@ while (condition) {
 }
 ```
 When working with a while loop that you want to loop indefinitely until the user decides to exit the code, use a boolean (true/false) variable.
-A good example for this would be if you were building a program that makes a robot clean the house. You would want to label each room you want it to clean in a numbered list, with the option to input a number between 1 and however many rooms you have chosen to include. From there use a switch method:
+### While loops run while the boolean condition is true, to end one, add a false condition so the program knows when to stop
 
-```
+A good example for this would be if you were building a program designed to command a robot clean the house. You would want to label each room you want it to clean in a numbered list, with the option to input a number between 1 and however many rooms you have chosen to include. From there use a switch method:
+
+```java
 switch (cleaningOption) {
   case 1:
     System.out.println("Cleaned attic");
     break;
-
-  // remember to add breaks so that the code will function as intended, otherwise it will fallthrough
+}
+    // remember to add breaks so that the code will function as intended, otherwise it will fallthrough
 ```
+
+Ex.
+
+```java
+public class Main {
+    public static void main)String{} args) {
+
+        int totalTrashInRoom = 0;
+
+        do {
+            System.out.println("I will take out some trash. ");
+        } while( totalTrashInRoom > 0);
+    }
+}
+```
+
+### while loops are best used for when boolean conditions are true and repetitive menus. A variation of the while loop is the do-while loop
+
+# Implementing while loops
+
+A while loop lets you execute a block of code repeatedly while a certain condition within that block is true. Making it useful for programs you want to run until a specific condition is met (like cleaning the house)
+Another useful example would be to use this for a counting app.
+
+```java
+public class SimpleCounter {
+    public static void main(String[] args) {
+        int count = 1;  // Start with 1
+
+        while (count <= 5) {
+            System.out.println("Count is: " + count);
+            count++;  // Increase count by 1
+        }
+    }
+}
+```
+the output for this block should thenn show the count going up by 1 interval (count++) until it reaches the number 5, at which point the code specified using the while loop to stop counting when the value of the condition was less than or equal to 5. ( while (count <= 5) )
+
+## Example 2: Guessing Game
+While loops can also be used to create simple games, like a guessing game. The idea is simple:
+- The computer has a secret number.
+
+- The player will keep guessing what that number is from 1 to 9.
+
+- After each guess, the computer will tell you whether your guess was correct or not.
+
+- If your guess is wrong, the loop will continue, giving you another chance to guess.
+
+- If your guess is right, the loop will stop, and the computer will congratulate you.
+### Why a while loop is best for this
+It allows for an indefinite number of guesses until the user guesses correctly until they guess the correct answer.
+```java
+import java.util.Scanner;
+
+public class GuessingGame {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // Scanner to read user input
+        int secretNumber = 7;  // The secret number to guess
+        int userGuess = 0;  // Variable to store the user's guess, initialized with 0
+
+        // While loop that keeps running until the correct guess
+        while () { // TODO 1 - Write the exit condition
+            System.out.print("Guess the number from 1 to 9: ");
+            // TODO 2: GET input from user 
+
+            if (userGuess != secretNumber) {
+                System.out.println("Wrong guess, try again!");
+            }
+        }
+
+        // TODO 3: Congratulate the user once they guess correctly
+    }
+}
+```
+According to this lesson, it would seem that the 'scanner' function can only be run in IntelliJ, so I might have to look into that.
+
+# Implementing while loops: LAB
+In this lab, it seems like I'm going to be building a terminal car sim game. The goal is to refine the code and test the sim in order to provide a realistic driving experience.
+
+## Requirements
+1. Start the car: onvious first step when trying to simulate the experience of driving a car
+2. Select the gear: yo're going to drive at different speeds depending on what part of a drive you're on. Backing out of the driveway? Reverse. On the interstate? Drive. (Keeping it simple for the purposes of the lab)
+3. Acceleration: you need to know the current speed of the car before you can accelerate, so you'll need to set an initial variable for the speed to be set at when the program starts.
+4. Brake: pretty self-explanatory. If you need to slow down for any reason, you'll use the brake
+5. Exit: when you want to be done with the game, you need a way to be able to exit out of it
+
+
+
+
+
+
 
