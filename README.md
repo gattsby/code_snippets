@@ -100,20 +100,3 @@ public class GuessingGame {
 }
 ```
 According to this lesson, it would seem that the 'scanner' function can only be run in IntelliJ, so I might have to look into that.
-
-# Implementing while loops: LAB
-In this lab, it seems like I'm going to be building a terminal car sim game. The goal is to refine the code and test the sim in order to provide a realistic driving experience.
-
-## Requirements
-1. Start the car: onvious first step when trying to simulate the experience of driving a car
-2. Select the gear: yo're going to drive at different speeds depending on what part of a drive you're on. Backing out of the driveway? Reverse. On the interstate? Drive. (Keeping it simple for the purposes of the lab)
-3. Acceleration: you need to know the current speed of the car before you can accelerate, so you'll need to set an initial variable for the speed to be set at when the program starts.
-4. Brake: pretty self-explanatory. If you need to slow down for any reason, you'll use the brake
-5. Exit: when you want to be done with the game, you need a way to be able to exit out of it
-
-
-
-
-
-
-
