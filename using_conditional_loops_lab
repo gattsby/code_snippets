@@ -1,0 +1,23 @@
+# Implementing while loops: LAB
+In this lab, it seems like I'm going to be building a terminal car sim game. The goal is to refine the code and test the sim in order to provide a realistic driving experience.
+
+## Requirements
+1. Start the car: obvious first step when trying to simulate the experience of driving a car
+3. Select the gear: you're going to drive at different speeds depending on what part of a drive you're on. Backing out of the driveway? Reverse. On the interstate? Drive. (Keeping it simple for the purposes of the lab)
+4. Acceleration: you need to know the current speed of the car before you can accelerate, so you'll need to set an initial variable for the speed to be set at when the program starts.
+5. Brake: pretty self-explanatory. If you need to slow down for any reason, you'll use the brake
+6. Exit: when you want to be done with the game, you need a way to be able to exit out of it
+
+### PLANNING OUT THE PROGRAM
+Obviously, I want to start with the import java.util.Scanner; funtion so that it allows for user input
+1. Declare the necessary values for each state that the car will be in with the program. (Start, Gear, Acceleration, Brake, Exit)
+   - Start: start with a boolean to determine whether the engine is on or not
+         - ```java boolean isEngineOn = false; ```
+2. Gear: Determines what state the car will be in
+    - ```java String gear = "P"; //I'll add the other two gears later ```
+3. Acceleration: Need a starting point (where the car is parked) and a state that can be changed depending on the speed the car is moving while driving.
+    - ```java int speed = 0; ```
+    - ```java int choice = 0; //This will be the something idk figure it out ```
+
+4. Scanner: This allows for user input to determine what state the car is in.
+    - ```java Scanner keyboard = new Scanner(System.in); ```
