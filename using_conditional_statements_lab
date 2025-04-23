@@ -1,0 +1,53 @@
+# Using Conditional Statements Lab
+The goal of this lab is to build a terminal based car simulator, with inputs for the state the car is in (engine off or on),
+which gear the car is currently in, how fast the car is moving, and and in order to receive those outputs, including a Scanner
+that will allow for user input via the keyboard.
+
+## Step 1: declaring the variables for each component of the simulator
+- ```java boolean startCar = false;
+        String gear = "P";
+        int speed = 0;
+        int choice = 0;
+        Scanner keyBoard = new.Scanner(System.in);
+```
+
+## Step 2: Adding print statements for the menu including each component of the simulator
+- ```java System.out.println("------ Car Dashboard ______");
+        System.out.println("Speed: " + speed);
+        System.out.println("Gear: " + gear);
+        System.out.println("placeholder_for_choice" + choice);
+```
+
+## Step 3: Adding print statements for the options available to the user (implementing the while loop)
+- For this step, I want to use a value not equal to any of the choices available for each of the actions in the simulator (1-4) so
+I'm going to use 5 for my starting point.
+
+
+## Step 4: Prompt the user for input
+- ```java System.out.println("Enter your choice: ");
+     choice = keyBoard.nextInt();
+```
+
+## Step 5: Use a switch statement to check the code according to what the user inputs
+- ```java switch(choice) {
+            case 1:
+                isEngineOn = !isEngineOn;
+                break;
+            case 2:
+                System.out.println("Enter gear (P, D, R");
+                gear = keyBoard.next();
+                break;
+            case 3:
+                if (isEngineOn && !gear.equals("P")) {
+                    speed += 10;
+                } else {
+                    System.out.println("Cannot accelerate while engine is off or in Park.");
+                }
+                break;
+            case 4: //this is for the acceleration option. So if the user is in the "drive" gear and wants to go faster, use speed += 10;
+
+
+
+
+
+
