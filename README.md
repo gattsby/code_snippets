@@ -100,3 +100,11 @@ public class GuessingGame {
 }
 ```
 According to this lesson, it would seem that the 'scanner' function can only be run in IntelliJ, so I might have to look into that.
+
+
+
+
+
+
+### MODULE 3: Using Methods
+
