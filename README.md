@@ -107,4 +107,70 @@ According to this lesson, it would seem that the 'scanner' function can only be 
 
 
 ### MODULE 3: Using Methods
+Why use methods? It allows you to break down a larger task into smaller, more manageable ones. Like making a sandwich for example. Instead of having to tackle the entire process of 
+making a sandwich, why not break it down into smaller, easier to complete steps, and combine all 3 to make the whole system work. A great example of a method that I've seen and didn't
+realize is the "MAI" method:
+
+```java
+        public class Main {
+        public static void (Strings[] args( {
+    }
+}
+```
+Methods also have a pair of curly braces used to write the instructions for accomplishing the task. The main thing to remember about when using these is they are placed *outside* of the main class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### DAILY TRACKING SUMMARY
+## Week of April 30, 2025
+
+🧠 **What I focused on:**
+- Conditionals and basic loops
+- Reviewing note structure and making it easier to skim
+
+📈 **Wins:**
+- Showed up even when I was low-energy
+- Pushed 3+ commits to repo
+
+💡 **Struggles:**
+- Felt mentally worn out most days
+- Had trouble focusing beyond 10 mins
+
+🔁 **Next Week Goal:**
+- Keep 10–20 min habit going
+- Try 1 hands-on mini coding task (if energy allows)
+
+
+
+
+
+
+
+
 
