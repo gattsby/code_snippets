@@ -147,7 +147,7 @@ Methods also have a pair of curly braces used to write the instructions for acco
 
 
 
-### DAILY TRACKING SUMMARY
+# DAILY TRACKING SUMMARY
 ## Week of April 30, 2025
 
 🧠 **What I focused on:**
@@ -165,6 +165,55 @@ Methods also have a pair of curly braces used to write the instructions for acco
 🔁 **Next Week Goal:**
 - Keep 10–20 min habit going
 - Try 1 hands-on mini coding task (if energy allows)
+
+## April 30, 2025
+### Reading: Writing Method Signatures
+One important thing to remember about methods in Java is that they have 'signatures' that identify what they are, similar
+to how we use signatures when setting up bank accounts or writing checks, it's a way to verify that we are the one initiating the action.
+
+### Main method
+```java
+public static void main(String[] args) {
+// instructions to be performed
+}
+```
+Breaking each part down:
+- public: is like stating that “anyone can follow these steps.”
+Hello, I am accessible to anyone!
+Even your friend can read me.
+static: is like saying, “These steps are always the same for this device.”
+
+You can operate many similar devices using these exact instructions.
+The basic instruction set is shared among all the devices.
+
+- void: means this section does not give you anything back directly, unlike the > (greater than) operator that always returns a result in either true or false.
+
+Reading the booklet is an action, but it does not prepare your device for use. There are more steps to follow.
+
+- main: tells you what it does: Just like the booklet's first page might say “Getting Started,” the word main says, “This is the most important section for getting the program running.”
+
+- (String[] args): is similar to saying, “This section might take some optional instructions or inputs later on, but they’re not needed to get started yet.”
+
+Since it is an array, it can be empty!
+
+Set of curly braces {} - contains all the instructions to be performed when the program starts.
+
+Here is how it works explained simply, for me:
+- What it does: Start the program (similar to “Getting Started”).
+- How to use it: Just call “main” without any extra information.
+-What to expect: It might not give the result directly, but it sets the program in motion.
+This is what the signature of every method tells you!
+
+Understanding the technical jargon, important for down the road:
+- The keyword public is called an access modifier because it makes the method available to anyone who wants to use it
+- The keyword static is like a sharing mechanism because it creates a single version of a method that all parts of the program can access. If you don’t want to share your method, you can skip it.
+- The keyword void is a return type because it indicates that the method does not give something in return for being called
+ -The keyword main is the method name. That is how Java recognizes the starting point of a program. For the methods you create, it can be a verb signifying the purpose of the method
+- The (String[] args), such as the parentheses (empty or not empty), is called the parameter list because this is where you provide some input or information to the method. You can also offer multiple inputs, which is why it is called a list. Every time you use a print statement, you are providing parameters to a method, System.out.println(parameters);.
+
+
+
+
 
 
 
