@@ -119,6 +119,41 @@ realize is the "MAI" method:
 ```
 Methods also have a pair of curly braces used to write the instructions for accomplishing the task. The main thing to remember about when using these is they are placed *outside* of the main class.
 
+BREAKING DOWN THE ANATOMY OF A METHOD
+1. public (access modifier): public allows parts of the program outside of the class to call on it. If it was private, then only that specific class could call on it, which would make it pretty useless.
+
+2. stati: in a real world example, the recipe can be used to make whatever, but it doesn't always have to be a cake?"
+"so if i understand this, then static means the program will pull from the original class, which applies to the broadest use case, instead of a potentially specific use case?
+
+3. void: This is the return type. It means that your program will run without having to return anything, like a string.
+
+4. main (Method Name): it represents what I want the code to do, which is in the name.
+
+5. (String[] args): These are the parameters. Having nothing between the parentheses means that the program does not require any input in order to run. But if there is something between them, then you can run commands that include that.
+
+GETTING A METHOD TO RETURN SOMETHING
+Coursera uses a comparison to giving your friend a treasure map. If you use 'void', it's like you giving them the map, and them giving you nothing in return for finding it.
+So, breaking down the steps helps us figure out where exactly we need to prompt Java to giving us a return:
+1. Following the Map (Non-Returning Methods):
+- To keep in line with the example already given, say you add instructions that say digHere. This will make Java look in this spot
+for treasure, but that doesn't mean it will find anything of value. In the programming world, such methods might rearrange things internally, like gathering ingredients for a recipe. However, they do not provide a specific answer or a piece of data, like the final delicious meal.
+
+2. Treasure Trove Methods (Returning a Value):
+- This is like following clues on a treasure map. By giving Java certain perameters to look for, you're giving it context to look for exactly what you want it to, leading it closer to providing the return you desire.
+
+Putting Both Parts Together
+The non-returning methods help you to progress through the treasure hunt. Just like following instructions leads us to different locations, these methods can move a program through different steps, even if they don’t directly provide the result.
+
+The returning methods can return different types of treasures, depending on the kind of clue they unearth. They might return a simple arrow pointing to the following location, a short riddle to solve, or even a more complex drawing like the detailed map of the next area. The critical point is that they bring back something valuable that helps you to progress further in your treasure hunt. 
+
+Let's say you want to calculate the area of a shape, but you want to streamline the process. Why not build a program that allows you to plug in the parameters and return an answer?
+
+
+
+
+
+
+
 
 
 
