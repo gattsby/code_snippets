@@ -252,6 +252,10 @@ Understanding the technical jargon, important for down the road:
 I watched a video about passing arguments to methods, and part of that was building a "superhero fighting project" type thing. So I'll upload that separately for viewing.
 
 
+## May 4, 2025
+First thing on the list today is completing a graded lab called Writing Methods. It uses code I wrote in a previous lab and I'll be repurposing it to reinforce how you can use methods to change the behavior of your code. Will upload it when I finish.
+
+
 
 
 
