@@ -146,7 +146,8 @@ The non-returning methods help you to progress through the treasure hunt. Just l
 
 The returning methods can return different types of treasures, depending on the kind of clue they unearth. They might return a simple arrow pointing to the following location, a short riddle to solve, or even a more complex drawing like the detailed map of the next area. The critical point is that they bring back something valuable that helps you to progress further in your treasure hunt. 
 
-Let's say you want to calculate the area of a shape, but you want to streamline the process. Why not build a program that allows you to plug in the parameters and return an answer?
+### Passing Arguments to Methods
+
 
 
 
@@ -246,6 +247,9 @@ Understanding the technical jargon, important for down the road:
  -The keyword main is the method name. That is how Java recognizes the starting point of a program. For the methods you create, it can be a verb signifying the purpose of the method
 - The (String[] args), such as the parentheses (empty or not empty), is called the parameter list because this is where you provide some input or information to the method. You can also offer multiple inputs, which is why it is called a list. Every time you use a print statement, you are providing parameters to a method, System.out.println(parameters);.
 
+
+## May 3, 2025
+I watched a video about passing arguments to methods, and part of that was building a "superhero fighting project" type thing. So I'll upload that separately for viewing.
 
 
 
