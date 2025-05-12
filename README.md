@@ -256,6 +256,19 @@ I watched a video about passing arguments to methods, and part of that was build
 First thing on the list today is completing a graded lab called Writing Methods. It uses code I wrote in a previous lab and I'll be repurposing it to reinforce how you can use methods to change the behavior of your code. Will upload it when I finish.
 
 
+## May 12, 2025
+### Classes and Objects
+Today started with a video about classes and objects. It explained what each is, and what they're used for, using the previous superhero example.
+Classes- Like explained last week, a class is a blueprint for the program that defines the characteristics and methods of objects in the code, thus making it more organized and easier to read.
+Objects- These are specific instances of classes, which are created through a process of instantiation, which is a fancy way of desribing giving life to the object.
+
+Instantiation: This allows the programmer to create new instances of a class while referencing the original. For example, say there is a class called cat, but I want to create an instance of that class that applies to my cat, Roo. I would use this concept to create an instance of the cat class, new cat ("Roo')
+
+Up next is a lab called 'Creating Classes'. SEE REPO FOR WORK
+
+
+
+
 
 
 
