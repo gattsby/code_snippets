@@ -266,6 +266,10 @@ Instantiation: This allows the programmer to create new instances of a class whi
 
 Up next is a lab called 'Creating Classes'. SEE REPO FOR WORK
 
+## Grouping Methods
+This video covered the concept of defining the logic once, and making it apply to different categories in order to make the code cleaner, easier to read, and allowing for easy editing should that be required in the future.
+
+
 
 
 
