@@ -335,6 +335,8 @@ There is a shortcut to do this built into IntelliJ, but I don't use that IDE so 
 
 In conclusion, I learned that classes can be dfined by specific attributes when you want to add multiple objects to your code, and actions (like accelerate and turn) allow the objects to perform different functions. And when you want to display the attributes of an object, using the toString(); method is great for that.
 
+## May 14, 2025
+### Constructors: Instantiating Objects with Different States
 
 
 
