@@ -269,6 +269,72 @@ Up next is a lab called 'Creating Classes'. SEE REPO FOR WORK
 ## Grouping Methods
 This video covered the concept of defining the logic once, and making it apply to different categories in order to make the code cleaner, easier to read, and allowing for easy editing should that be required in the future.
 
+## Objects
+What is an object? An object holds data or properties that define it's characteristics and methods that define its actions. They can be broken down into 3 main components: Identity, State, and Behavior.
+
+- Identity: Each object has a unique identity in memory, represented by a reference that includes the class name and an alphanumeric value. For example, Hero@6e8cf4c6 indicates a unique hero object.
+- State: The state of an object is defined by its properties, such as name, strength, and health. These properties can be customized for each object, allowing for different states even within the same class.
+- Behavior: This refers to the actions an object can perform, defined by its methods. For instance, methods like calculatePunchDamage use the object's state (e.g., strength) to perform calculations, demonstrating how behavior is dependent on state.
+
+## May 13, 2025
+### Objects continued...
+Starting today off with a reading titled "Creating attributes and actions" where I'll be learning about how objects attributes and functionalities are defined using classes. 
+
+```java
+class Car {
+
+//These are the ATTRIBUTES that can be applied to different objects under the "Car" class in order to help differentiate from one another.
+String make;
+String model;
+String color;
+// Various attributes of an object are represented as values, or data, stored inside variables in a programming language. When they are part of a class, they're referred to as member variables.
+}
+    // Method (action) to accelerate the Car
+    public void accelerate() {
+        System.out.println("The car is accelerating!");
+    }
+    
+    // Method (action) to turn the Car
+    public void turn() {
+        System.out.println("The car is turning!");
+    }
+// Allows you to display the attributes of the cars in a String.
+ public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+Car colorado = new Car();
+colorado.make = "Chevrolet";
+colorado.model = "Colorado";
+colorado.color = "Red";
+
+Car mustang = newCar();
+mustang.make = "Ford";
+mustang.model = "Mustang";
+mustang.color = "Blue";
+```
+Now imagine you want to display the details of one of the cars as a String. To do this, you would use the getCarDetails operator in order to display the information. 
+It looks like this:
+```java
+public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
+```
+There is a shortcut to do this built into IntelliJ, but I don't use that IDE so I'll have to figure out if VS Code has something similar. When you implement this before the main, the output will look similar to this; Car{make='Chevrolet', model='Colorado', color='Red'}
+
+In conclusion, I learned that classes can be dfined by specific attributes when you want to add multiple objects to your code, and actions (like accelerate and turn) allow the objects to perform different functions. And when you want to display the attributes of an object, using the toString(); method is great for that.
+
 
 
 
