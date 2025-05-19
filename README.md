@@ -319,6 +319,8 @@ Car mustang = newCar();
 mustang.make = "Ford";
 mustang.model = "Mustang";
 mustang.color = "Blue";
+}
+}
 ```
 Now imagine you want to display the details of one of the cars as a String. To do this, you would use the getCarDetails operator in order to display the information. 
 It looks like this:
@@ -335,8 +337,25 @@ There is a shortcut to do this built into IntelliJ, but I don't use that IDE so 
 
 In conclusion, I learned that classes can be dfined by specific attributes when you want to add multiple objects to your code, and actions (like accelerate and turn) allow the objects to perform different functions. And when you want to display the attributes of an object, using the toString(); method is great for that.
 
-## May 14, 2025
+## May 18-19, 2025
 ### Constructors: Instantiating Objects with Different States
+I fell off for a couple of days. I kept looking at the reading and just couldn't get myself into it. But we're hitting the road running today and diving into a reading about constructors.
+
+There are 3 common types of constructors: default, no-argument, and parameterized.
+Default: Java will automatically make these if you do not specify different attributes on your own. It will normally initialize all numerical attributes to "0" and Strings to "null".
+No-argument: These allow you to be a little more specific, and this is acheived with the "this" keyword. It allows you to specify atributes for the object you're creating without having to initialize it. It also allows you to create an object with your desired initial state and tweak it from there.
+Parameterized: These allow you to create objects with initial values right away, instead of having to create it and then assign attributes one by one afterwards. It looks like this:
+```java
+ public Car(String make, String model, String color) {
+        this.make = make;
+        this.model = model;
+        this.color = color;
+    }
+```
+
+## Working with Classes, Objects, and Methods Lab
+
+
 
 
 
