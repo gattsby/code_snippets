@@ -353,7 +353,6 @@ Parameterized: These allow you to create objects with initial values right away,
     }
 ```
 
-## Working with Classes, Objects, and Methods Lab
 
 
 
