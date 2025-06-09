@@ -1,4 +1,4 @@
-# code_snippets
+ # code_snippets
 a collection of useful snippets that I imagine I'll need to reference a lot
 
 
@@ -352,8 +352,9 @@ Parameterized: These allow you to create objects with initial values right away,
         this.color = color;
     }
 ```
-## May 27, 2025
-I got stuck on the lab for a while. Finally locked in today at work and worked my way through it just to say it's done. I definitely will have to resubmit it, but I wanted to feel like some sense of progress had been made.
+## June 9, 2025
+###Introduction to Inheritance
+
 
 
 
