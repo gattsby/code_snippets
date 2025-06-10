@@ -354,7 +354,20 @@ Parameterized: These allow you to create objects with initial values right away,
 ```
 ## June 9, 2025
 ### Introduction to Inheritance
-Inheritance is very useful in OOP, because it allows you to reuse code.
+This content focuses on the concept of inheritance in object-oriented programming (OOP), which allows for code reuse and organization.
+
+Inheritance in OOP
+
+Inheritance enables new classes (subclasses) to inherit properties and methods from existing classes (superclasses).
+This concept is similar to how children inherit traits from their parents, allowing for the creation of specialized versions of a base class.
+Creating Classes and Subclasses
+
+A superclass serves as a blueprint, defining common attributes and methods, while subclasses can add unique features.
+For example, a Vehicle class can be a superclass for Car and Truck subclasses, which inherit common functionalities but also have their specific attributes.
+Benefits of Inheritance
+
+Inheritance promotes code reuse, scalability, and maintainability, reducing the need to rewrite common code.
+Changes made to the superclass automatically apply to all subclasses, keeping the code organized and efficient
 
 
 
