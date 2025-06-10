@@ -354,7 +354,7 @@ Parameterized: These allow you to create objects with initial values right away,
 ```
 ## June 9, 2025
 ### Introduction to Inheritance
-
+Inheritance is very useful in OOP, because it allows you to reuse code.
 
 
 
